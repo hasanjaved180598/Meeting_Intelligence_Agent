@@ -1,0 +1,25 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.idea/
+*.iml
+.env
+.DS_Store
+Thumbs.db
+*.log
+.streamlit/secrets.toml
+
+# Whisper's downloaded model weights (auto-downloaded on first run,
+# large binary files — no reason to commit them)
+*.pt
+
+# Temporary/uploaded audio test files
+*.mp3
+*.wav
+*.m4a
+*.mp4
+*.webm
+*.ogg
